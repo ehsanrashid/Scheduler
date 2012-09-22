@@ -1,17 +1,25 @@
-Microsoft Visual Studio Solution File, Format Version 7.00
-Project("{8BC9CEB9-8B4A-11D0-8D11-00A0C91BC942}") = "SchedulerService.exe", "..\..\..\Program Files\Default Company Name\SchedulerSetup\SchedulerService.exe", "{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "SchedulerService", "..\..\..\Program Files\Default Company Name\SchedulerSetup\SchedulerService.exe", "{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = E:\Program Files\Default Company Name\SchedulerSetup\SchedulerService.exe
+		RemoteMachine = USER-PC
+		StartingDirectory = E:\Program Files\Default Company Name\SchedulerSetup
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		ConfigName.0 = Debug
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}.Debug|Default.ActiveCfg = Debug
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}.Debug.ActiveCfg = Debug
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
