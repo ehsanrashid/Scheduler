@@ -1,0 +1,17 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB9-8B4A-11D0-8D11-00A0C91BC942}") = "SchedulerService.exe", "..\..\..\Program Files\Default Company Name\SchedulerSetup\SchedulerService.exe", "{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3B82AA81-C37D-44C4-959E-6FBC4AC44E96}.Debug.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
